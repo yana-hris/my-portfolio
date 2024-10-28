@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "lightbox": "^0.5.0",
+    "lightbox2": "^2.11.5",
+    "typed.js": "^2.1.0"
+  }
+}
