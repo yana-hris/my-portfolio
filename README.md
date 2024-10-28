@@ -37,13 +37,14 @@ To run the project locally:
 
 ## 📷 Screenshots
 
-![Portfolio Screenshot](path/to/screenshot.jpg)  
+![image](https://github.com/user-attachments/assets/bbb7eb47-2de5-4ea2-8c31-6025202a6a29)
+ 
 *A screenshot showcasing the landing page of the portfolio.*
 
 ## ✨ Acknowledgements
 
 - **Lightbox.js** for the image gallery effect.
-- **Typed.js** for the typing animations.
+- **Typed.js** for typing animation.
 ## 📷 Credits
 
 Hero image by [Mikhail Nilov](https://www.pexels.com/@mikhail-nilov/) on [Pexels](https://www.pexels.com/).
