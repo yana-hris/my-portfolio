@@ -25,16 +25,66 @@
   </head>
   <body>
     <header class="header vh-100 text-center position-relative">
+      <picture>
+        <!-- For mobile screens in portrait orientation (up to 768px width) -->
+        <source
+          srcset="../images/hero-768-1280-mobile.webp"
+          media="(max-width: 768px) and (orientation: portrait)"
+          type="image/webp"
+        />
+
+        <!-- For mobile screens in landscape orientation (up to 768px width) -->
+        <source
+          srcset="../images/hero-1200.webp"
+          media="(max-width: 768px) and (orientation: landscape)"
+          type="image/webp"
+        />
+
+        <!-- For tablets in portrait mode (up to 1200px width) -->
+        <source
+          srcset="../images/hero-1536-2048-tablet.webp"
+          media="(min-width: 768px) and (max-width: 1200px) and (orientation: portrait)"
+          type="image/webp"
+        />
+
+        <!-- For smaller laptops or tablets in landscape mode (up to 1200px width) -->
+        <source
+          srcset="../images/hero-1200.webp"
+          media="(min-width: 768px) and (max-width: 1200px) and (orientation: landscape)"
+          type="image/webp"
+        />
+
+        <!-- For larger screens, like desktops (up to 1920px width) -->
+        <source
+          srcset="../images/hero-1920.webp"
+          media="(min-width: 1200px) and (max-width: 1920px)"
+          type="image/webp"
+        />
+
+        <!-- For ultra-wide or 4K screens (wider than 1920px) -->
+        <source
+          srcset="../images/hero-3840.webp"
+          media="(min-width: 1920px)"
+          type="image/webp"
+        />
+
+        <!-- Fallback image for browsers that don’t support <picture> -->
+        <img src="../images/hero-1920.jpg" alt="Hero Image" />
+      </picture>
+
       <div
         class="text-container position-relative d-flex flex-column justify-content-center align-items-center h-100"
       >
         <h5 class="text-primary fs-3 fw-bold text-uppercase">
           Hello, I am Yana!
         </h5>
-        <h1
-          id="typing-text"
-          class="display-3 fw-bold text-white d-inline-block"
-        ></h1>
+        <div class="dynamic-heading-container">
+          <h1
+            id="typing-text"
+            class="display-3 fw-bold text-white d-inline-block"
+          ></h1>
+        </div>
+
         <p class="role text-white text-uppercase fs-4">
           <span>Back-End Enthusiast & Front-End Explorer</span>
         </p>
@@ -67,8 +117,12 @@
           <h2 class="mb-4">My journey as a developer.</h2>
         </div>
         <div class="about-content d-flex gap-5 align-items-center h-100">
-          <img src="images/me.jpg" alt="" class="about-img img-fluid" />
-          <div>
+          <img
+            src="images/CV-photo-rezied.jpg"
+            alt=""
+            class="about-img img-fluid"
+          />
+          <div class="about-text">
             <p class="lead">
               I am a dedicated
               <span class="text-primary">.NET developer</span> who recently
@@ -81,13 +135,14 @@
             </p>
             <p class="lead">
               My journey has equipped me with hands-on experience in working
-              with both modern and legacy technologies. I have developed a
+              with both modern and some legacy technologies. I have developed a
               versatile skill set, ranging from creating efficient server-side
               solutions to designing engaging and responsive user interfaces.
-              While I’m well-versed in using libraries and frameworks such as
-              Bootstrap, jQuery, and Knockout.js, I am equally eager to tackle
-              complex back-end challenges and refine my front-end expertise with
-              contemporary tools and real-world projects.
+            </p>
+            <p class="lead">
+              I am equally eager to tackle complex back-end challenges and
+              refine my front-end expertise with contemporary tools and
+              real-world projects.
             </p>
           </div>
         </div>

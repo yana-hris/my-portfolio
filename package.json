@@ -1,7 +1,14 @@
 {
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.6.0",
+    "bootstrap": "^5.3.3",
     "lightbox": "^0.5.0",
     "lightbox2": "^2.11.5",
+    "sass": "^1.32.13",
     "typed.js": "^2.1.0"
+  },
+  "scripts": {
+    "sass:build": "sass --no-source-map scss:css",
+    "sass:watch": "sass --no-source-map --watch scss:css"
   }
 }
