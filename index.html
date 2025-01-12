@@ -159,32 +159,32 @@
 
         <div class="personal-info row g-3 mb-5">
           <div class="col-12 col-lg-7 p-2">
-            <h5 class="text-transform">
-              <i class="fas fa-user text-primary"></i> Full Name:
+            <h5 class="text-transform text-primary">
+              <i class="fas fa-user "></i> Full Name:
             </h5>
             <p>Yana Hristova</p>
           </div>
           <div class="col-12 col-lg-5 p-2">
-            <h5 class="text-transform">
-              <i class="fa-solid fa-location-dot text-primary"></i>
+            <h5 class="text-transform text-primary">
+              <i class="fa-solid fa-location-dot"></i>
               Location:
             </h5>
             <p>Sofia, Bulgaria</p>
           </div>
           <div class="col-12 col-lg-7 p-2">
-            <h5 class="text-transform">
-              <i class="fas fa-phone text-primary"></i> Mobile:
+            <h5 class="text-transform text-primary">
+              <i class="fas fa-phone"></i> Mobile:
             </h5>
             <p>+359 888 169 060</p>
           </div>
           <div class="col-12 col-lg-5 p-2">
-            <h5 class="text-transform">
-              <i class="fas fa-envelope text-primary"></i> Email:
+            <h5 class="text-transform text-primary">
+              <i class="fas fa-envelope"></i> Email:
             </h5>
             <p>
               <a
                 href="mailto:yana.hristova.work@gmail.com"
-                class="link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
+                class="text-dark"
               >
                 yana.hristova.work@gmail.com</a
               >
@@ -193,8 +193,8 @@
         </div>
 
         <!-- SKILLS SECTIONS -->
-        <h3 class="text-uppercase fw-bold">Skills</h3>
-        <div id="skills" class="skills-container row g-3 gy-5 gy-lg-3">
+        <h3 id="skills" class="text-uppercase fw-bold">Skills</h3>
+        <div class="skills-container row g-3 gy-5 gy-lg-3">
           <div class="tech-skills-container col-lg-7 p-2">
             <div class="row mb-4">
               <p>
@@ -290,40 +290,181 @@
           <h4 class="text-uppercase fw-bold text-primary">Portfolio</h4>
           <hr class="w-25 mx-auto" />
 
-          <h2 class="mb-4">Check Out My Work</h2>
-          <p class="lead">Here are some of my latest projects.</p>
+          <h2 class="mb-4">Latest Projects</h2>
         </div>
-        <div class="row">
-          <div class="col-12 mb-4">
-            <div class="project shadow-lg rounded-5">
-              <a
-                href="#"
-                data-lightbox="images"
-                data-title="CookTheWeek Web App"
-              >
-                <img
-                  src="images/cook-the-week.jpg"
-                  alt="first project"
-                  class="img-fluid rounded-3"
-                />
-              </a>
-            </div>
+        <div class="project">
+          <h3 class="text-uppercase fw-bold">CookTheWeek</h3>
+          <p>
+            A meal planning app that simplifies weekly meal preparation. Browse
+            and filter collection or add your own recipes, create meal plans,
+            generate shopping lists, email them and enjoy organized planning.
+          </p>
+          <h4 class="text-primary text-uppercase">Tech stack</h3>
+          <ul class="list-unstyled">
+            <li>
+              <strong>Front-End:</strong> HTML + CSS, Bootstrap, SCSS (SASS),
+              JavaScript, jQuery, KnockoutJS, AJAX
+            </li>
+            <li>
+              <strong>Back-End:</strong> C#, .NET8, ASP.NET Core MVC, Entity Framework
+              Core, Rotativa, SendGrid, External Logins, Hangfire
+            </li>
+            <li><strong>Database:</strong> SQL Server</li>
+          </ul>
+          <p>
+            <a href="https://cooktheweek.azurewebsites.net" target="_blank"
+              >Live Demo</a
+            >
+            |
+            <a href="https://github.com/yana-hris/cook-the-week" target="_blank"
+              >GitHub Repository</a
+            >
+          </p>
+          <div class="project-gallery">
+            <!-- Lightbox 2 Gallery -->
+            <!-- Image 1 -->
+            <a
+              href="images/cook-the-week-home-page.webp"
+              data-lightbox="cooktheweek"
+              data-title="CookTheWeek Home Page"
+            >
+              <img
+                src="images/cook-the-week-home-page-thumb.webp"
+                alt="CookTheWeek Home Page"
+              />
+            </a>
+            <!-- Image 2 -->
+            <a
+              href="images/cook-the-week-login-page.webp"
+              data-lightbox="cooktheweek"
+              data-title="CookTheWeek Login Page"
+            >
+              <img
+                src="images/cook-the-week-login-page-thumb.webp"
+                alt="CookTheWeek Login Page"
+              />
+            </a>
+
+            <!-- Image 3 -->
+            <a
+              href="images/cook-the-week-welcome-modal.webp"
+              data-lightbox="cooktheweek"
+              data-title="CookTheWeek Welcome Modal"
+            >
+              <img
+                src="images/cook-the-week-welcome-modal-thumb.webp"
+                alt="CookTheWeek Welcome Modal"
+              />
+            </a>
+
+            <!-- Image 4 -->
+            <a
+              href="images/cook-the-week-recipes-page.webp"
+              data-lightbox="cooktheweek"
+              data-title="CookTheWeek Browse Recipes"
+            >
+              <img
+                src="images/cook-the-week-recipes-page-thumb.webp"
+                alt="CookTheWeek Browse Recipes"
+              />
+            </a>
+
+            <!-- Image 5 -->
+            <a
+              href="images/cook-the-week-light-and-dark-themes.webp"
+              data-lightbox="cooktheweek"
+              data-title="CookTheWeek Switch Themes"
+            >
+              <img
+                src="images/cook-the-week-light-and-dark-themes-thumb.webp"
+                alt="CookTheWeek Switch Themes"
+              />
+            </a>
+
+            <!-- Image 6 -->
+            <a
+              href="images/cook-the-week-add-recipe.webp"
+              data-lightbox="cooktheweek"
+              data-title="CookTheWeek Add Recipe"
+            >
+              <img
+                src="images/cook-the-week-add-recipe-thumb.webp"
+                alt="CookTheWeek Add Recipe"
+              />
+            </a>
+
+            <!-- Image 7 -->
+            <a
+              href="images/cook-the-week-recipe-details.webp"
+              data-lightbox="cooktheweek"
+              data-title="CookTheWeek Recipe Details"
+            >
+              <img
+                src="images/cook-the-week-recipe-details-thumb.webp"
+                alt="CookTheWeek Recipe Details"
+              />
+            </a>
+
+            <!-- Image 8 -->
+            <a
+              href="images/cook-the-week-mealplan.webp"
+              data-lightbox="cooktheweek"
+              data-title="CookTheWeek Mealplan"
+            >
+              <img
+                src="images/cook-the-week-mealplan-thumb.webp"
+                alt="CookTheWeek Mealplan"
+              />
+            </a>
+
+            <!-- Image 9 -->
+            <a
+              href="images/cook-the-week-shopping-list.webp"
+              data-lightbox="cooktheweek"
+              data-title="CookTheWeek Shopping List"
+            >
+              <img
+                src="images/cook-the-week-shopping-list-thumb.webp"
+                alt="CookTheWeek Shopping List"
+              />
+            </a>
+
+            <!-- Image 10 -->
+            <a
+              href="images/cook-the-week-footer-links.webp"
+              data-lightbox="cooktheweek"
+              data-title="CookTheWeek Footer Links"
+            >
+              <img
+                src="images/cook-the-week-footer-links-thumb.webp"
+                alt="CookTheWeek Footer Links"
+              />
+            </a>
+
+            <!-- Image 11 -->
+            <a
+              href="images/cook-the-week-meal-ingredients.webp"
+              data-lightbox="cooktheweek"
+              data-title="CookTheWeek Meal Ingredients"
+            >
+              <img
+                src="images/cook-the-week-meal-ingredients-thumb.webp"
+                alt="CookTheWeek Meal Ingredients"
+              />
+            </a>
+
+            <!-- Image 12 -->
+            <a
+              href="images/cook-the-week-meal-cooking-steps.webp"
+              data-lightbox="cooktheweek"
+              data-title="CookTheWeek Meal Cooking Steps"
+            >
+              <img
+                src="images/cook-the-week-meal-cooking-steps-thumb.webp"
+                alt="CookTheWeek Meal Cooking Steps"
+              />
+            </a>
           </div>
-          <!-- <div class="col-md-6 mb-4">
-            <div class="project shadow-lg rounded-5">
-              <a
-                href="images/project2.jpg"
-                data-lightbox="images"
-                data-title="Loop Studios Website"
-              >
-                <img
-                  src="images/project2.jpg"
-                  alt="first project"
-                  class="img-fluid rounded-3"
-                />
-              </a>
-            </div>
-          </div> -->
         </div>
       </div>
     </section>
@@ -342,12 +483,11 @@
                 >
               </li>
               <li class="text-light">
-                <i class="fa-solid fa-location-dot text-light me-2"></i> Sofia,
-                Bulgaria
+                <i class="fa-solid fa-location-dot text-light me-2"></i><span>Sofia,
+                  Bulgaria</span>
               </li>
               <li class="text-light">
-                <i class="fa-solid fa-mobile text-light me-2"></i> +359 888 169
-                060
+                <i class="fa-solid fa-mobile text-light me-2"></i><span>+359 888 169 060</span>
               </li>
             </ul>
           </div>
@@ -384,7 +524,7 @@
 
         <div class="row mt-4">
           <div class="col text-center">
-            <p class="small">&copy; 2024 Yana Hristova | All Rights Reserved</p>
+            <p class="small">&copy; 2024 - 2025 Yana Hristova | All Rights Reserved</p>
           </div>
         </div>
       </div>
